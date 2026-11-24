@@ -10,7 +10,7 @@ const app = fastify({
 });
 
 app.register(cors, {
-  origin: ["https://frontend-prod-bay.vercel.app", "http://localhost:4000"],
+  origin: ["https://frontend-projeto-estoque.vercel.app", "http://localhost:4000"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
 });
